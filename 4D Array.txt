@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleAppCypherCresentClass7c
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[,,,] my4DArray = new int[2, 3, 5, 4];
+
+            my4DArray = new int[2, 3, 5, 4]
+                        { { { { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 } },
+                            { { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 } },
+                            { { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 } } }, 
+                          { { { 1,2,3,4 }, 
+                              { 1,2,3,4 }, 
+                              { 1,2,3,4 }, 
+                              { 1,2,3,4 },
+                              { 1,2,3,4 } }, 
+                            { { 1,2,3,4 }, 
+                              { 1,2,3,4 }, 
+                              { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 } },
+                            { { 1,2,3,4 },
+                              { 1,2,3,4 },
+                              { 1,2,3,4 }, 
+                              { 1,2,3,4 }, 
+                              { 1,2,3,4 } } } };
+
+        }
+    }
+}
